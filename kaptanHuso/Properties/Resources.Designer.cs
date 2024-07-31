@@ -63,6 +63,26 @@ namespace kaptanHuso.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap captanLeft {
+            get {
+                object obj = ResourceManager.GetObject("captanLeft", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap captanRight {
+            get {
+                object obj = ResourceManager.GetObject("captanRight", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap kaptan {
             get {
                 object obj = ResourceManager.GetObject("kaptan", resourceCulture);
@@ -76,6 +96,56 @@ namespace kaptanHuso.Properties {
         internal static System.Drawing.Bitmap kaptanSOL {
             get {
                 object obj = ResourceManager.GetObject("kaptanSOL", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap leftCaptan {
+            get {
+                object obj = ResourceManager.GetObject("leftCaptan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap rightCaptan {
+            get {
+                object obj = ResourceManager.GetObject("rightCaptan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap sagKaptan {
+            get {
+                object obj = ResourceManager.GetObject("sagKaptan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap solKaptan {
+            get {
+                object obj = ResourceManager.GetObject("solKaptan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap upCaptan {
+            get {
+                object obj = ResourceManager.GetObject("upCaptan", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -40,10 +40,10 @@
             // captan
             // 
             this.captan.BackColor = System.Drawing.Color.Transparent;
-            this.captan.Image = global::kaptanHuso.Properties.Resources.kaptan;
-            this.captan.Location = new System.Drawing.Point(423, 229);
+            this.captan.Image = global::kaptanHuso.Properties.Resources.sagKaptan;
+            this.captan.Location = new System.Drawing.Point(551, 342);
             this.captan.Name = "captan";
-            this.captan.Size = new System.Drawing.Size(107, 186);
+            this.captan.Size = new System.Drawing.Size(204, 247);
             this.captan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.captan.TabIndex = 0;
             this.captan.TabStop = false;
@@ -56,11 +56,12 @@
             // 
             // boostBar
             // 
-            this.boostBar.Location = new System.Drawing.Point(423, 479);
+            this.boostBar.Location = new System.Drawing.Point(1147, 577);
             this.boostBar.Name = "boostBar";
             this.boostBar.Size = new System.Drawing.Size(139, 23);
             this.boostBar.TabIndex = 1;
             this.boostBar.Value = 50;
+            this.boostBar.Click += new System.EventHandler(this.boostBar_Click);
             // 
             // label1
             // 
@@ -68,7 +69,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(359, 482);
+            this.label1.Location = new System.Drawing.Point(1083, 580);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 20);
             this.label1.TabIndex = 2;
@@ -80,10 +81,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(975, 507);
+            this.ClientSize = new System.Drawing.Size(1298, 612);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.boostBar);
             this.Controls.Add(this.captan);
+            this.DoubleBuffered = true;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

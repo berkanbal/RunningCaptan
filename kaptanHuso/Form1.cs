@@ -30,7 +30,7 @@ namespace kaptanHuso
         private void Form1_Load(object sender, EventArgs e)
         {
             boostBar.Minimum = 0;
-            boostBar.Maximum = 50;
+            boostBar.Maximum = 100;
             boostBar.Value = boost;
         }
 
@@ -40,7 +40,7 @@ namespace kaptanHuso
             {
                 goLeft = true;
                 facing = "left";
-                captan.Image = Properties.Resources.kaptanSOL;
+                captan.Image = Properties.Resources.solKaptan;
                 
             }
 
@@ -49,13 +49,18 @@ namespace kaptanHuso
             {
                 goRight = true;
                 facing = "Right";
-                captan.Image = Properties.Resources.kaptan;
+                captan.Image = Properties.Resources.sagKaptan;
             }
 
             if (e.KeyCode == Keys.Space)
             {
                 boostbool = true;
             }
+        }
+
+        private void boostBar_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void MainTimerEvent(object sender, EventArgs e)
@@ -73,14 +78,14 @@ namespace kaptanHuso
             if (boostbool == true && boost > 0)
             {
                 speed = 12;
-                if(boost>1)
-                boost = boost - 2;
+                if(boost>4)
+                boost = boost - 5;
 
             }
             else
             {
                 speed = 8;
-                if(boost<50)
+                if(boost<100)
                     boost = boost + 1;
             }
             boostBar.Value = boost;
