@@ -75,7 +75,7 @@ namespace kaptanHuso
                 captan.Left += speed;
             }
 
-            if (boostbool == true && boost > 0)
+            if (boostbool == true && boost > 4)
             {
                 speed = 12;
                 if(boost>4)
